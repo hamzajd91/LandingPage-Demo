@@ -6,7 +6,7 @@ import HeroCard2 from './HeroCards/HeroCard2';
 import Navbar from '../Navbar/Navbar';
 
 function Hero() {
-    var HeroImage = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBLJaIEu0J0wGk4piixFiylKtvCJSPKw-Ncw&usqp=CAU";
+    var HeroImage = "https://media.istockphoto.com/photos/full-stadium-and-neoned-colorful-flashlights-background-picture-id1276444914?b=1&k=20&m=1276444914&s=170667a&w=0&h=FKHO_16rIS7zdUYBJ0yWMa5MkcAGvgnhDiKOztsbgzg=";
 
     return (
         <div className='Hero' style={{ backgroundImage: `url(${HeroImage})` }}>
@@ -28,7 +28,7 @@ function Hero() {
                 </div>
             </div>
 
-            <div className='container' style={{ marginTop: "-180px" }}>
+            <div className='container' style={{ marginTop: "-200px" }}>
                 <div className='CardDetails' style={{ background: "#454b4d", width: "290px", paddingInline: "20px" }}>
                     <div className="cardtextContainer">
                         <p className='HeaderdetailsText1'>40K </p>
