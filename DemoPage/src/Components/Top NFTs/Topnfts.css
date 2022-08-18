@@ -1,0 +1,23 @@
+.TopCardContainer{
+    background-color: #1F2239;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.TopnftText{
+    color: white;
+    margin-block:70px ;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.TopNFTimg{
+    width: 90px;
+    height: 70px;
+    border: 2px solid silver;
+    border-radius: 5px;
+}

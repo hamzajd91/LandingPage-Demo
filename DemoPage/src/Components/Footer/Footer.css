@@ -1,0 +1,101 @@
+.footerinput{
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #E3A104;
+}
+.new_footer_top .f-title {
+    margin-bottom: 30px;
+    color: #E3A104;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+.f_600 {
+    font-weight: 600;
+}
+.f_size_18 {
+    font-size: 18px;
+}
+.f_600 {
+    font-weight: 600;
+}
+
+
+.new_footer_top .f_widget.about-widget .f_list li a {
+    color: #c0c0c0;
+}
+p, a, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+
+a, .button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.new_footer_top .company_widget p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #c0c0c0;
+    margin-bottom: 20px;
+}
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn {
+    -moz-user-select: none;
+    border: medium none;
+    border-radius: 5px;
+    color: #1c1121;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 20px 44px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all 0.3s ease 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    z-index: 1;
+    background-color: var(--primarygold);
+}
+
+.btn:hover{
+    background-color: var(--accent1);
+
+}

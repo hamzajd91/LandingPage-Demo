@@ -1,0 +1,99 @@
+.ProductsSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-block: 2rem;
+}
+
+
+  .ProductCardContainer {
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.483);
+    backdrop-filter: blur(5px) !important;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    border: 1px solid #91f958;
+  }
+  
+  .Heart {
+    display: flex;
+    align-items: center;
+    padding-inline: 4px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: white;
+    z-index: 4;
+    position: absolute;
+    top: 20px;
+    left: 190px;
+    background-color: #3a3a45;
+  }
+
+  .Heart p{ margin: 0px !important;}
+  .Heart svg{ font-size: 16px !important;}
+
+  .ProductcardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .Productcard1img {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    background-color: #91f958;
+    object-fit: cover;
+  }
+   .ProuctTitle{
+    background-color: #3a3a45;
+    color: white;
+    padding-block: 5px;
+    width: 100%;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+
+   }
+  .ProductCardDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background-color: #4b4b4b7a; */
+    background-color: #0000007a;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 20px;
+  }
+  
+  .CardProfileimg {
+    width: 2.5rem;
+    aspect-ratio: 1;
+    background-color: var(--primarygold);
+    border-radius: 10px;
+  }
+  
+  .cardtextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .Productcardtext1 {
+    font-size: 14px;
+    color: silver;
+    margin-bottom: 0px;
+    font-weight: 600;
+  }
+  
+  .Productcardtext2 {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 0px;
+    font-weight: 600;
+  }
+  
+  

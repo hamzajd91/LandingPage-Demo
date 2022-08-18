@@ -1,0 +1,17 @@
+.navbar{
+    background-color: transparent !important;
+    background: linear-gradient(black, transparent);
+    z-index: 2;
+    padding-inline: 30px !important;
+    padding-top: 20px;
+}
+
+.NavButton{
+    border: 1px solid var(--primarygold) !important;
+    color: white !important;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}

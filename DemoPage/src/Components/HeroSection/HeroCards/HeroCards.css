@@ -1,0 +1,114 @@
+.HeroCard1Container {
+  width: 370px;
+  background-color: rgba(0, 0, 0, 0.483);
+  backdrop-filter: blur(5px) !important;
+  border-radius: 25px;
+  padding: 20px;
+  position: relative;
+  transform: rotate(10deg);
+  z-index: 2;
+}
+
+.HeroCard2Container {
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.483);
+  backdrop-filter: blur(5px) !important;
+  border-radius: 25px;
+  padding: 20px;
+  position: relative;
+  transform: rotate(-18deg);
+  margin-right: -70px;
+  margin-top: 20px;
+  z-index: 1;
+}
+
+.card1Content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card1img {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 25px;
+  border: 2px solid var(--primarygold);
+  background-color: lightgrey;
+  object-fit: cover;
+}
+
+.CardDetails {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4b4b4b7a;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.CardProfileimg {
+  width: 2.5rem;
+  aspect-ratio: 1;
+  background-color: var(--primarygold);
+  border-radius: 10px;
+}
+
+.cardtextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardtext1 {
+  font-size: 14px;
+  color: var(--primarygold);
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+.cardtext2 {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .HeroCard1Container {
+    width: auto !important;
+    font-size: 13px !important;
+  }
+  .HeroCard2Container {
+    width: auto !important;
+    font-size: 13px !important;
+  }
+
+  .CardDetails {
+    justify-content: start;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .HeroCard1Container {
+    width: 50vw !important;
+  }
+  .HeroCard2Container {
+    width: 40vw !important;
+  }
+
+  .cardtextContainer:nth-child(4) {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+    .cardtextContainer:nth-child(3),
+    .cardtextContainer:nth-child(4) {
+      display: none;
+    }
+  }
+  
